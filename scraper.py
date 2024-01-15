@@ -278,7 +278,6 @@ def create_resume(info):
 
 
     # Add the Skills section
-    # TODO: make 3 columns of this section, bullet points
     skills_heading = document.add_paragraph("Skills")
     skills_heading.runs[0].bold = True
     add_horizontal_line(document)
@@ -316,8 +315,10 @@ def main(profile_url, password, email):
     chrome_options = Options()
     chrome_options.add_argument("--headless")  # This line makes the browser run in headless mode
     driver = webdriver.Chrome(options=chrome_options)
+    # driver = webdriver.Chrome()
 
     try:
+        # TODO: Use LinkedIn API to Sign in instead of logging in
         # Logging into LinkedIn
         driver.get("https://linkedin.com/uas/login")
         time.sleep(5)
