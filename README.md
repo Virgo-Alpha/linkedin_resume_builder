@@ -21,7 +21,7 @@ This project empowers you to craft a polished resume using your LinkedIn profile
 
 ## Usage
 
-**Run the Streamlit application:**
+1. **Run the Streamlit application:**
     ```bash
     streamlit run builder.py
     ```

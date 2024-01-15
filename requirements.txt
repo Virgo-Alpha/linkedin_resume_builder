@@ -1,4 +1,4 @@
 python-docx
-BeautifulSoup
+beautifulsoup4
 selenium
 streamlit
