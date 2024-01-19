@@ -2,3 +2,9 @@
 # get soup from the above
 
 Tutorial = "https://youtu.be/YJoof1kX_kQ"
+
+
+# TODO: Authenticate
+# TODO: Start web driver and go to url
+# TODO: Get soup and save to a file
+# TODO: Check if soup contents corelate with previously scraped soup
