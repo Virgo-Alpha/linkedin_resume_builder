@@ -314,8 +314,8 @@ def main(profile_url, password, email):
     # Creating a webdriver instance in headless mode
     chrome_options = Options()
     chrome_options.add_argument("--headless")  # This line makes the browser run in headless mode
-    driver = webdriver.Chrome(options=chrome_options)
-    # driver = webdriver.Chrome()
+    # driver = webdriver.Chrome(options=chrome_options)
+    driver = webdriver.Chrome()
 
     try:
         # TODO: Use LinkedIn API to Sign in instead of logging in
